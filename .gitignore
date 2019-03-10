@@ -1,0 +1,53 @@
+#Ignore CNAME Changes
+CNAME
+
+# Folders to ignore
+# GitHub Jekyll Ruby
+_gh_pages
+_site
+.bundle
+.jekyll-metadata
+Gemfile.lock
+
+
+# Node HTML CSS JS
+.sass-cache
+.eslintrc.*
+node_modules
+vendor
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.xcf
+*.zip
+*~
+
+# OS or Editor folders
+._*
+.cache
+.DS_Store
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+Thumbs.db
+# Visual Studio Code
+.code-workspace
+.vscode
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
