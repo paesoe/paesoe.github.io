@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/paesoe/paesoe.github.io.svg?branch=release)](https://travis-ci.com/paesoe/paesoe.github.io)
 
 # Professional Association of Integrated Emergency Surgical Officers of Ethiopia
 
@@ -43,20 +44,20 @@ No longer in use:
         - [ ] Eliminate render-blocking resources (main.css)
         - [ ] Minimize Critical Requests Depth
     - [ ] PWA 
-        - [ ] Respond with a 200 when offline
-        - [ ] User will be prompted to Install the Web App. 
-        - [ ] Include Manifest file
-        - [ ] Register a service worker
-        - [ ] Is configured for a custom splash screen.
-        - [ ] Address bar should match brand colors.
+        - [x] Respond with a 200 when offline
+        - [x] User will be prompted to Install the Web App. 
+        - [x] Include Manifest file
+        - [x] Register a service worker
+        - [x] Is configured for a custom splash screen.
+        - [x] Address bar should match brand colors.
         - [ ] Site works cross-browser
-        - [ ] Page transitions don't feel like they block on the network
-        - [ ] Each page has a URL
+        - [x] Page transitions don't feel like they block on the network
+        - [x] Each page has a URL
     - [ ] Accessibility
-        - [ ] Image elements should have [alt] attributes
+        - [x] Image elements should have [alt] attributes
         - [ ] Background and foreground colors should have a sufficient contrast ratio.
         - [ ] `<dl>`'s contain only properly-ordered `<dt> and <dd> groups, <script> or <template>` elements.
-        - [ ] List items (`<li>`) are contained within `<ul> or <ol>` parent elements.
+        - [x] List items (`<li>`) are contained within `<ul> or <ol>` parent elements.
         - [ ] Manual Checks
         - [ ] The page has a logical tab order
         - [ ] Interactive controls are keyboard focusable
@@ -71,9 +72,9 @@ No longer in use:
         - [ ] HTML5 landmark elements are used to improve navigation
     - [ ] Best Practices
         - [ ] Use HTTP/2 for all resources
-    - [ ] SEO 
-        - [ ] [Page is mobile friendly](https://search.google.com/test/mobile-friendly)
-        - [ ] Structured data is [valid](https://search.google.com/structured-data/testing-tool/) and [linted](http://linter.structured-data.org/)
+    - [x] SEO 
+        - [x] [Page is mobile friendly](https://search.google.com/test/mobile-friendly)
+        - [x] Structured data is [valid](https://search.google.com/structured-data/testing-tool/) and [linted](http://linter.structured-data.org/)
 - [ ] Integrate Zotero to facilitate access to a curated library
 - [ ] Automate publishing new posts to social media and IESO Telegram group
 
