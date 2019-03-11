@@ -82,3 +82,4 @@ No longer in use:
 | Date     | Build | Performance |  PWA  | Accessibility | Best Practices |  SEO  |
 | :------- | :---- | :---------: | :---: | :-----------: | :------------: | :---: |
 | 02/03/19 | local |     100     |  42   |      72       |       87       |  100  |
+| 11/03/19 | local |     98      |  92   |      90       |       93       |  100  |
