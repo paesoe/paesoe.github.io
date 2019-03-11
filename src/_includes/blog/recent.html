@@ -3,7 +3,7 @@
 </h4>
 <dl>
   {%-for post in site.posts limit:include.items-%}
-  <li>
+  <dt>
     <a href="{{ post.url | prepend: site.baseurl }}">
       {{ post.title }}
     </a>
@@ -11,6 +11,6 @@
     <small>
       {{ post.date | date: "%b %-d, %Y" }}
     </small>
-  </li>
+  </dt>
   {%-endfor-%}
 </dl>
