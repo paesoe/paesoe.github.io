@@ -1,0 +1,31 @@
+---
+layout: page
+---
+<!-- Start Nav/Author bar -->
+<section id="blog-date-author" class="container">
+  <div class="row">
+    <div class="col col-33">
+      {%-include blog/date_duration.html-%}
+    </div>
+
+    <!-- Wrap this in a p tag for extra padding before main content -->
+    <div id="blog-author" class="col col-66">
+      <p>
+        {%-include blog/authors.html-%}
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End Nav/Author bar -->
+
+<!-- Start Post Content -->
+<section class="container">
+  {{ content }}
+</section>
+<!-- End Post Content -->
+
+<!-- Start blog-nav-bottom -->
+<section class="container float-center">
+  {%-include blog/progress.html-%}
+</section>
+<!-- End blog-nav-bottom -->
