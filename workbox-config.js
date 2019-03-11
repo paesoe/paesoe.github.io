@@ -9,7 +9,7 @@ module.exports = {
   offlineGoogleAnalytics: {
     cacheName: 'paesoe-ga-cache',
     parameterOverrides: {
-      cd1: 'offline'
+      cd1: 0
     },
     hitFilter: (params) => {
       const queueTimeInSeconds = Math.round(params.get('qt') / 1000);

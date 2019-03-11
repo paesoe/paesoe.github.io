@@ -8,9 +8,10 @@
   }
   gtag('js', new Date());
 
-  gtag('config', 'UA-131797697-1');
-// Set dimension 1 'Network Status' to Online. 
-// Service worker will set this to Offline if offline requests are made
-  ga('set', 'dimension1', 'Online');
+  gtag('config', 'UA-131797697-1', {
+    'custom_map': {'dimension1': 'cd1'}
+  });
+
+  gtag('event', 'set_network_status', {'cd1': 1});
 
 </script>

@@ -2,7 +2,7 @@
 layout: post
 title: Annual Conference Report - 2017
 description: Over 200 participants attended the 4th Annual Conference to discuss the progress made by IESOs as well as to plan the future role of IESOs and the delivery of safe and accessible emergency obstetric and surgical care.
-image: /assets/images/2017-10-27-annual-conference-report-3.jpeg
+image: /assets/images/2017-10-27-annual-conference-report-3.jpg
 authors: [melese]
 date: 2017-10-27
 tags: [meeting, report]
@@ -18,7 +18,7 @@ Participant arrival date, October 25th, 2017
 
 After completing registration of participant, welcome and opening speech was made by executives of the association and explained that the association is aimed to keep all emergency surgical Officers of Ethiopia closely knit and in constant touch with each other and build a spirit of unity for a common goal: "improve quality and accessible obstetric and emergency surgical care for the most rural poor population of our country".
 
-![Speaker at PAESOE Annual Conference 2018]({{"/assets/images/2017-10-27-annual-conference-report-1.jpeg" | absolute_url}})
+![Speaker at PAESOE Annual Conference 2018]({{"/assets/images/2017-10-27-annual-conference-report-1.jpg" | absolute_url}})
 
 According to the programm, the PAESOE President, Mr. Melese Takele, presented the 2017 performance and 2018 plan.
 Comments, suggestions and question were forwarded and detailed discussion was made in the following issues as well.
@@ -34,7 +34,7 @@ Among the invited distinguished guests, Dr.Awoke from UNFPA made a speech and ex
 
 After having tea break, one of the keynote speaker from WHO was Dr Haimanot Ambelu explained that on the good performance of IESO, what has been achieved so far after deployment of this task shifted cadres in rural areas of the country , and she reassured that WHO Ethiopia ia alway willing to work with the association.
 
-![Speaker at PAESOE Annual Conference 2018]({{"/assets/images/2017-10-27-annual-conference-report-2.jpeg" | absolute_url}})
+![Speaker at PAESOE Annual Conference 2018]({{"/assets/images/2017-10-27-annual-conference-report-2.jpg" | absolute_url}})
 
 On the same day in the afternoon session there were non-published paper presentation made by two IESOs on the role of IESO profession in improving maternal and child health in ethiopia.
 
@@ -48,11 +48,11 @@ As per the program, discussion was made on the following issues and the panelist
 - Involvement of ISOs in the management area
 - License and Private practice (after one IESO has fulfilled his obligation or after retirement of serving at rural area)
 
-![Participants at PAESOE Annual Conference 2017]({{"/assets/images/2017-10-27-annual-conference-report-3.jpeg" | absolute_url}})
+![Participants at PAESOE Annual Conference 2017]({{"/assets/images/2017-10-27-annual-conference-report-3.jpg" | absolute_url}})
 
 In summary, the meeting was well attended and several ongoing issues were discussed in detail and meeting got finalized with common understanding and promising to continue providing quality emergency obstetrics and surgical care services for the underserved community of our country.
 
-![Participants at PAESOE Annual Conference 2017]({{"/assets/images/2017-10-27-annual-conference-report-4.jpeg" | absolute_url}})
+![Participants at PAESOE Annual Conference 2017]({{"/assets/images/2017-10-27-annual-conference-report-4.jpg" | absolute_url}})
 
 The total were 200 participants attended the conference and booked in the hotel.
 WHO-Ethiopia solely has covered for all of this cost of full package of the meeting along with accommodation of all participants.
