@@ -1,0 +1,66 @@
+# Safelisting or Blocklisting Branches
+branches:
+  only:
+  - release
+
+dist: xenial
+addons:
+  apt:
+    sources:
+      - github-git-lfs-xenial
+      - libcurl4-openssl-dev
+
+# ==============================================================
+# Job lifecycle (https://docs.travis-ci.com/user/job-lifecycle/)
+# ==============================================================
+# 1. OPTIONAL Install apt addons
+# 2. OPTIONAL Install cache components
+# 3. before_install
+
+# 4. install
+install:
+  - bundle install --path vendor/bundle
+  - npm install workbox-cli --global
+
+# 5. before_script
+
+# 6. script
+script: 
+  - bundle exec jekyll build
+  - workbox generateSW workbox-config.js 
+  
+# 7. OPTIONAL before_cache (for cleaning up cache)
+# 8. after_success or after_failure
+# 9. OPTIONAL before_deploy
+
+# 10. OPTIONAL deploy
+deploy:
+  provider: pages
+  target-branch: master
+  keep-history: false
+  fqdn: paesoe.org
+  committer-from-gh: true
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  on:
+    branch: release
+  local-dir: build
+
+# 11. OPTIONAL after_deploy
+# 12. after_script
+# ==============================================================
+# END OF JOB LIFECYCLE
+# ==============================================================
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: 
+  - bundler # caching bundler gem packages will speed up build
+  - npm
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false

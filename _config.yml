@@ -1,0 +1,163 @@
+# =================================================
+# WebSite Configuration
+# =================================================
+title: PAESOE
+tagline: Emergency Surgery Saves Lives
+description: > 
+  Professional Association of Emergency Surgery Officers in Ethiopia. 
+  Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.
+url: https://paesoe.org
+baseurl: ''
+version: 0.0.3
+repository: paesoe/paesoe.github.io
+thumbnail: /assets/images/default-image.jpg
+
+# =================================================
+# Author Details
+# =================================================
+author:
+  name: vvcb
+  url: https://github.com/vvcb
+  email: ieso.ethiopia@gmail.com
+  
+# =================================================
+# Where things are
+# =================================================
+source: ./src
+destination: ./build
+
+# =================================================
+# Handling Reading
+# =================================================
+include: [_pages]
+exclude: []
+strict_front_matter : true
+keep_files: [sw.js]
+
+# =================================================
+# Plugins
+# =================================================
+plugins:
+
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  # Future
+  # - jekyll-scholar
+  # - jekyll-algolia
+
+# =================================================
+# Conversion
+# =================================================
+markdown: kramdown
+lsi: true
+
+# =================================================
+# Outputting
+# =================================================
+permalink: /blog/:year/:month/:title
+paginate_path: /api/:num
+liquid:
+  error_mode        : warn
+  strict_filters    : true
+  strict_variables  : false
+sass:
+  style: :compressed
+
+# http://jch.penibelst.de/
+compress_html:
+
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: [li, p, td]
+  ignore:
+    envs: []
+  blanklines: false
+  # profile: true
+  startings: []
+
+# =================================================
+# Markdown Processors
+# =================================================
+kramdown:
+ parse_block_html: true
+
+# =================================================
+# Front Matter Defaults
+# =================================================
+
+defaults:
+# Set default image for SEO
+  -
+    scope:
+      path: ""
+    values:
+      image: /assets/images/default-image.jpg
+# Set default layouts
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+# Front matter for static files
+# https://jekyllrb.com/docs/static-files/
+  -
+    scope:
+      path: "assets/images"
+    values:
+      assetType: "image"
+  -
+    scope:
+      path: "assets/docs"
+    values:
+      assetType: "document"
+  -
+    scope:
+      path: "assets/data"
+    values:
+      assetType: "data"
+  -
+    scope:
+      path: "js"
+    values:
+      assetType: "javascript"
+
+# =================================================
+# SEO
+# =================================================
+
+twitter:
+  username: PaesoeOrg
+  card: summary
+
+facebook:
+  publisher: https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807/
+
+github:
+  username: paesoe
+  
+social:
+  name: PAESOE
+  links:
+    - https://twitter.com/PaesoeOrg
+    - https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807/
+    - https://www.linkedin.com/company/paesoe/
+    - https://github.com/paesoe
+
+webmaster_verifications:
+  google: fvYLcEcUBoP2nUiuqZ5t4zkNH36vhQWdgRINHT7uF4Y
+  bing: 304054A661DFFA8F74EA244BD262D2AC
