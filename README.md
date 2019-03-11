@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/paesoe/paesoe.github.io.svg?branch=release)](https://travis-ci.com/paesoe/paesoe.github.io)
+[![Build Status](https://travis-ci.org/paesoe/paesoe.github.io.svg?branch=release)](https://travis-ci.org/paesoe/paesoe.github.io)
 
 # Professional Association of Integrated Emergency Surgical Officers of Ethiopia
 
