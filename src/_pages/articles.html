@@ -1,0 +1,42 @@
+---
+layout: page
+title: Blog
+permalink: /blog
+---
+
+{%-assign columns = 2-%}
+<section class="container">
+  <div class="row">
+    {%-for post in site.posts-%}
+    {%-assign n = forloop.index | modulo: columns-%}
+    <div class="col col-50">
+      <h4>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+        </a>
+      </h4>
+      <h6>
+        {%-include blog/date_duration.html page=post-%}
+      </h6>
+
+      <p>
+        {%-if post.description-%}
+        {%-assign summary = post.description-%}
+        {%-elsif post.excerpt.size > 255-%}
+        {%-assign summary = post.excerpt | slice: 0,500 | append: "..."-%}
+        {%-else-%}
+        {%-assign summary = post.excerpt-%}
+        {%-endif-%}
+
+        {{ summary | strip_html }}
+      </p>
+    </div>
+
+    {%-if n == 0-%}
+  </div>
+  <div class="row">
+    {%-endif-%}
+    {%-endfor-%}
+
+  </div>
+</section>
