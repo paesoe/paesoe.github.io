@@ -3,12 +3,10 @@ CNAME
 
 # Folders to ignore
 # GitHub Jekyll Ruby
-_gh_pages
-_site
+build
 .bundle
 .jekyll-metadata
 Gemfile.lock
-
 
 # Node HTML CSS JS
 .sass-cache
